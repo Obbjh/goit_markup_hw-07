@@ -23,34 +23,35 @@
   <body>
     <header class="page-header">
       <div class="container flex-container">
-        <nav class="container-main-nav">
-          <a href="/index.html" class="logo"
-            ><span class="accent">Web</span>Studio</a
+        <nav class="site-nav">
+          <a href="/index.html" class="site-nav__logo"
+            ><span class="site-nav__accent">Web</span>Studio</a
           >
-          <ul class="site-nav-list">
-            <li class="site-nav-item">
-              <a href="./index.html" class="nav-link">Студія</a>
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студія</a>
             </li>
-            <li class="site-nav-item">
-              <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфоліо</a>
             </li>
-            <li class="site-nav-item">
-              <a href="" class="nav-link">Контакти</a>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <!-- contacts -->
-        <ul class="contacts">
-          <li class="container-item">
-            <a href="mailto:info@devstudio.com." class="contacts-link">
-              <svg class="contact-email">
+
+        <ul class="contacts-list">
+          <li class="contacts-list__item">
+            <a href="mailto:info@devstudio.com." class="contacts-list__link">
+              <svg class="contacts-list__email">
                 <use href="./images/symbol-defs.svg#icon-icon-email"></use>
               </svg>info@devstudio.com</a>
           </li>
-          <li class="container-item">
-            <a href="tel:+380961111111" class="contacts-link">
-              <svg class="contact-phone">
+          <li class="contacts-list__item">
+            <a href="tel:+380961111111" class="contacts-list__link">
+              <svg class="contacts-list__phone">
                 <use href="./images/symbol-defs.svg#icon-icon-phone"></use>
                 </svg>+38 096 111 11 11</a>
           </li>
@@ -59,203 +60,206 @@
     </header>
 
     <main>
-      <section class="projects-examples">
+      <section class="projects">
         <div class="container">
-          <!-- <h1 class="projects-title">Портофоліо</h1> -->
-          <ul class="filter-list">
-            <li class="filter-item">
-              <button class="filter-button">Усі</button>
+
+          <h1 class="projects__title">Портофоліо</h1>
+
+          <ul class="projects__list">
+            <li class="projects__item">
+              <button class="projects__button">Усі</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button">Веб-сайти</button>
+            <li class="projects__item">
+              <button class="projects__button">Веб-сайти</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button">Додатки</button>
+            <li class="projects__item">
+              <button class="projects__button">Додатки</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button">Дизайн</button>
+            <li class="projects__item">
+              <button class="projects__button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button">Маркетинг</button>
+            <li class="projects__item">
+              <button class="projects__button">Маркетинг</button>
             </li>
           </ul>
           
-            <!-- <h2 class="example-list-title">work examples</h2> -->
-            <ul class="example-list">
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+            <h2 class="projects__example-title">work examples</h2>
+
+            <ul class="projects__example-list">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image1.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Технокряк</h2>
-                  <p class="example-object">Веб-сайт</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Технокряк</h2>
+                  <p class="projects__info-object">Веб-сайт</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image2.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">
                     Постер New Orlean vs Golden Star
                     </h2>
-                  <p class="example-object">Дизайн</p>
+                  <p class="projects__info-object">Дизайн</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image3.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Ресторан Seafood</h2>
-                  <p class="example-object">Додаток</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Ресторан Seafood</h2>
+                  <p class="projects__info-object">Додаток</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image4.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Проєкт Prime</h2>
-                  <p class="example-object">Маркетинг</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Проєкт Prime</h2>
+                  <p class="projects__info-object">Маркетинг</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image5.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Проєкт Boxes</h2>
-                  <p class="example-object">Додаток</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Проєкт Boxes</h2>
+                  <p class="projects__info-object">Додаток</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image6.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Inspiration has no Borders</h2>
-                  <p class="example-object">Веб-сайт</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Inspiration has no Borders</h2>
+                  <p class="projects__info-object">Веб-сайт</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image7.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Видання Limited Edition</h2>
-                  <p class="example-object">Дизайн</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Видання Limited Edition</h2>
+                  <p class="projects__info-object">Дизайн</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                     <img
                     src="./images/example-image8.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                   </div>
-                  <div class="info-block">
-                    <h2 class="example-title">Проєкт LAB</h2>
-                  <p class="example-object">Маркетинг</p>
+                  <div class="projects__info-box">
+                    <h2 class="projects__info-title">Проєкт LAB</h2>
+                  <p class="projects__info-object">Маркетинг</p>
                   </div>
                 </a>
               </li>
-              <li class="flex-element">
-                <a href="" class="flex-a">
-                  <div class="exmpl-thumb">
+              <li class="projects__example-item">
+                <a href="" class="projects__example-link">
+                  <div class="projects__example-thumb">
                      <img
                     src="./images/example-image9.jpg"
                     alt=""
                     width="370"
                     height="294"
                   />
-                  <div class="example-description">
-                    <p class="example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <div class="projects__example-description">
+                    <p class="projects__example-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                   </div>
                   </div>
-                  <div class="info-block">
-                     <h2 class="example-title">Growing Business</h2>
-                  <p class="example-object">Додаток</p>
+                  <div class="projects__info-box">
+                     <h2 class="projects__info-title">Growing Business</h2>
+                  <p class="projects__info-object">Додаток</p>
                   </div>
                 </a>
               </li>
@@ -266,57 +270,58 @@
 
     <footer>
       <div class="container flex-container">
-        <div class="footer-box">
-          <a href="/index.html" class="footer-logo"
-            ><span class="accent">Web</span>Studio</a
+        <div class="footer-contacts">
+          <a href="/index.html" class="footer-contacts__logo"
+            ><span class="footer-contacts__accent">Web</span>Studio</a
           >
-          <address class="address">
-            <p class="address-item">м. Київ, пр-т Лесі Українки, 26</p>
-            <p class="address-item">
-              <a href="mailto:info@devstudio.com" class="footer-link"
+          <address class="footer-contacts__address">
+            <p class="footer-contacts__item">м. Київ, пр-т Лесі Українки, 26</p>
+            <p class="footer-contacts__item">
+              <a href="mailto:info@devstudio.com" class="footer-contacts__link"
                 >info@devstudio.com</a
               >
             </p>
-            <p class="address-item">
-              <a href="tel:+380961111111" class="footer-link"
+            <p class="footer-contacts__item">
+              <a href="tel:+380961111111" class="footer-contacts__link"
                 >+38 096 111 11 11</a
               >
             </p>
           </address>
         </div>
+
         <div class="footer-url">
-          <h3 class="footer-url-title">ПРИЄДНУЙТЕСЬ</h3>
-          <ul class="footer-list">
-            <li class="footer-item">
-              <a href="" class="footer-a">
-                <svg class="footer-svg">
+          <h3 class="footer-url__title">ПРИЄДНУЙТЕСЬ</h3>
+          <ul class="footer-url__list">
+            <li class="footer-url__item">
+              <a href="" class="footer-url__link">
+                <svg class="footer-url__icon">
                   <use
                     href="./images/symbol-defs.svg#icon-user-url-link1"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
-              <a href="" class="footer-a">
-                <svg class="footer-svg">
+            <li class="footer-url__item">
+              <a href="" class="footer-url__link">
+                <svg class="footer-url__icon">
                   <use
                     href="./images/symbol-defs.svg#icon-user-url-link2"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
-              <a href="" class="footer-a">
-                <svg class="footer-svg">
+            <li class="footer-url__item">
+              <a href="" class="footer-url__link">
+                <svg class="footer-url__icon">
                   <use
                     href="./images/symbol-defs.svg#icon-user-url-link3"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
-              <a href="" class="footer-a">
-                <svg class="footer-svg">
+            <li class="footer-url__item">
+              <a href="" class="footer-url__link">
+                <svg class="footer-url__icon">
                   <use
                     href="./images/symbol-defs.svg#icon-user-url-link4"
                   ></use>
@@ -325,15 +330,14 @@
             </li>
           </ul>
         </div>
-        <div class="subcribe"> 
-          <p class="subcribe-title">Підпишіться на розсилку</p>
-          <form name="subcribe-form">
-            <label class=" ">
-              <input type="email" class="form-input" name="email" placeholder="E-mail" />
-            </label>
-            <button type="submit" class="subcribe-btn">
+
+        <div class="subcribe-box"> 
+          <p class="subcribe-box__title">Підпишіться на розсилку</p>
+          <form name="subcribe-box__form">
+              <input type="email" class="subcribe-box__input" name="email" placeholder="E-mail" />
+            <button type="submit" class="subcribe-box__button">
               Підписатися
-              <svg class="send-btn" width="24" height="24">
+              <svg class="subcribe-box__icon" width="24" height="24">
                   <use
                     href="./images/symbol-defs.svg#icon-icon-send"
                   ></use>
