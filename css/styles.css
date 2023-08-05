@@ -437,7 +437,7 @@ button {
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.text__description {
+.work__text-description {
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
@@ -519,13 +519,13 @@ img {
     padding-right: 25px;
 }
 
-.user__list {
+.user-box__list {
     display: flex;
     justify-content: center;
     padding-left: 0;
 }
 
-.user__link {
+.user-box__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -539,15 +539,15 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user__item {
+.user-box__item {
     margin-right: 10px;
 }
 
-.user__item:last-child {
+.user-box__item:last-child {
     margin-right: 0;
 }
 
-.user__icon {
+.user-box__icon {
     width: 20px;
     height: 20px;
     fill: var(--border-box-client);
@@ -557,17 +557,17 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user__link:hover .user__icon,
-.user__link:focus .user__icon {
+.user-box__link:hover .user-box__icon,
+.user-box__link:focus .user-box__icon {
     fill: var(--primary-white-color);
 }
 
-.user__link:hover, 
-.user__link:focus {
+.user-box__link:hover, 
+.user-box__link:focus {
     background-color: var(--accent-color);
 }
 
-.user__name {
+.user-box__name {
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -578,7 +578,7 @@ img {
     color: var(--primary-text-color)
 }
 
-.user__profession {
+.user-box__profession {
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 16px;

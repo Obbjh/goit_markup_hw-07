@@ -28,3 +28,27 @@ body {
     padding-right: 15px;
 }
 
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+button {
+    border-radius: 4px;
+    padding: 10px 24px;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
+    border: 1px solid transparent;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
