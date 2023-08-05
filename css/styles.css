@@ -944,7 +944,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.modal-box__field:focus-within >.modal-box__feedback {
+.modal-box__field:focus-within > .modal-box__feedback {
     outline: 0;
     border: 1px solid var(--accent-color);
     color: var(--accent-color);

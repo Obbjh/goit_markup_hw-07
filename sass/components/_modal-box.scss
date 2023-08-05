@@ -1,0 +1,107 @@
+.modal-box {
+    width: 528px;
+    padding: 40px 40px;
+
+    &__title {
+            margin-top: 0;
+            margin-bottom: 12px;
+    
+    
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.15;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--primary-text-color);
+        }
+    
+       &__form {
+            margin-bottom: 10px;
+        }
+    
+    &__label {
+            display: block;
+            margin-bottom: 4px;
+    
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.17;
+            letter-spacing: 0.12px;
+            color: var(--secondary-text-color);
+        }
+    
+    &__field {
+            position: relative;
+        }
+    
+    &__field:focus-within>&__icon {
+            fill: var(--accent-color);
+        }
+    
+        &__field:focus-within>&__input {
+            border: 1px solid var(--accent-color);
+            outline: 0;
+        }
+    
+    &__input {
+            display: inline-block;
+            width: 448px;
+            height: 40px;
+    
+            padding-left: 42px;
+            border-radius: 4px;
+            border: 1px solid rgba(33, 33, 33, 0.20);
+    
+            transition-property: border;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+    &__icon {
+            position: absolute;
+            top: 50%;
+            left: 12px;
+    
+            transform: translateY(-50%);
+    
+            display: inline-block;
+    
+            transition-property: fill;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+    &__textarea {
+            margin-bottom: 20px;
+        }
+    
+    &__field:focus-within>&__feedback {
+            outline: 0;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+    
+    &__feedback {
+            width: 448px;
+            height: 120px;
+    
+            padding: 12px 16px;
+    
+            color: rgba(117, 117, 117, 0.50);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.17;
+            letter-spacing: 0.12px;
+    
+            resize: none;
+    
+            border-radius: 4px;
+            border: 1px solid rgba(33, 33, 33, 0.20);
+    
+            transition-property: border, color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
