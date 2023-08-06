@@ -931,30 +931,6 @@ footer {
   fill: var(--accent-color);
 }
 
-.check-box {
-  margin-bottom: 30px;
-}
-
-.check-box a {
-  color: var(--accent-color);
-}
-
-.check-box label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
-
 .modal-box {
   width: 528px;
   padding: 40px 40px;
@@ -1108,6 +1084,7 @@ footer {
   padding: 10px 52px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   border-radius: 4px;
   background: var(--accent-color);
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -1119,6 +1096,27 @@ footer {
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: 0.96px;
+}
+.modal-box__check-box {
+  margin-bottom: 30px;
+}
+.modal-box__check-box a {
+  color: var(--accent-color);
+}
+.modal-box__check-box label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .icon-check {
