@@ -28,6 +28,17 @@ body {
     padding-right: 15px;
 }
 
+.container-nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.container-contacts {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -51,4 +62,19 @@ button {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+footer {
+    font-style: normal;
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
